@@ -1,0 +1,11 @@
+[http]
+	sslVerify = false
+[https]
+	sslVerify = false
+[user]
+	name = C1344257 Alexandre Fernandes Rocha Filho
+	email = C1344257@interno.bb.com.br
+[alias]
+	c = "!git add . && git commit -m"
+	co = checkout
+	cob = checkout -b

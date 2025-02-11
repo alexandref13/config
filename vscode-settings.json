@@ -1,0 +1,141 @@
+{
+  "editor.fontWeight": "100",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always",
+    "source.removeUnusedImports": "always"
+  },
+
+  "highlight.regexes": {
+    "((?:<!-- )?(?:#|// @|//|./\\+|<!--|--|\\* @|{!|{{!--|{{!) TODO(?:\\s\\([^)]+\\))?:?)((?!\\w)(?: -->| *\\/| !}| *--}}| *}}|(?= *(?:[^:]//|/\\+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]?)(?= *(?:[^:]//|/\\+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#ffcc00",
+          "color": "#ffcc00",
+          "fontWeight": "bold"
+        },
+        {
+          "color": "#ffcc00"
+        }
+      ]
+    },
+    "((?:<!-- )?(?:#|// @|//|./\\+|<!--|--|\\* @|{!|{{!--|{{!) (?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s\\([^)]+\\))?:?)((?!\\w)(?: -->| *\\/| !}| *--}}| *}}|(?= *(?:[^:]//|/\\+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]?)(?= *(?:[^:]//|/\\+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc0000",
+          "color": "#cc0000",
+          "fontWeight": "bold"
+        },
+        {
+          "color": "#cc0000"
+        }
+      ]
+    },
+    "((?:<!-- )?(?:#|// @|//|./\\+|<!--|--|\\* @|{!|{{!--|{{!) (?:NOTE|REVIEW|OPTIMIZE|TSC)(?:\\s\\([^)]+\\))?:?)((?!\\w)(?: -->| *\\/| !}| *--}}| *}}|(?= *(?:[^:]//|/\\+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]?)(?= *(?:[^:]//|/\\+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#00ccff",
+          "color": "#00ccff",
+          "fontWeight": "bold"
+        },
+        {
+          "color": "#00ccff"
+        }
+      ]
+    },
+    "((?:<!-- )?(?:#|// @|//|./\\+|<!--|--|\\* @|{!|{{!--|{{!) (?:IDEA)(?:\\s\\([^)]+\\))?:?)((?!\\w)(?: -->| *\\/| !}| *--}}| *}}|(?= *(?:[^:]//|/\\+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]?)(?= *(?:[^:]//|/\\+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc00cc",
+          "color": "#cc00cc",
+          "fontWeight": "bold"
+        },
+        {
+          "color": "#cc00cc"
+        }
+      ]
+    }
+  },
+
+  "symbols.hidesExplorerArrows": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[dart]": {
+    "editor.formatOnType": true,
+
+    "editor.selectionHighlight": true,
+    "editor.wordBasedSuggestions": "off"
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.compactFolders": false,
+  "git.autofetch": true,
+  "supermaven.otherWarning": false,
+  "supermaven.allowGitignore": true,
+  "workbench.startupEditor": "none",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "git.enableSmartCommit": true,
+  "remote.portsAttributes": {
+    "443": {
+      "protocol": "https"
+    },
+    "8443": {
+      "protocol": "https"
+    }
+  },
+  "supermaven.enable": {
+    "*": true
+  },
+  "dart.flutterSdkPath": "/Users/ale/development/flutter",
+
+  // Define o tema Aura
+  "workbench.colorTheme": "Aura Soft Dark (Soft Text)", // Ou "Aura Light" se preferir o tema claro
+
+  // Configura a fonte MesloLGS NF
+  "editor.fontFamily": "'Fira Code Retina', 'Consolas', 'Courier New', monospace",
+  "editor.fontSize": 14, // Ajuste o tamanho da fonte conforme necessário
+  "editor.fontLigatures": true, // Habilita ligaduras de fonte, se desejar
+
+  // Personalizações adicionais para melhorar a experiência
+  "editor.lineHeight": 30, // Ajuste a altura da linha para melhor legibilidade
+  "editor.cursorStyle": "line", // Estilo do cursor
+  "editor.cursorBlinking": "smooth", // Comportamento do cursor
+  "editor.renderWhitespace": "boundary", // Mostra espaços em branco
+  "editor.minimap.enabled": true, // Habilita o minimapa
+  "workbench.iconTheme": "symbols", // Adiciona ícones temáticos (opcional)
+
+  "terminal.integrated.fontFamily": "'MesloLGS NF'",
+  "terminal.integrated.fontSize": 14,
+  "workbench.editor.alwaysShowEditorActions": true
+}
